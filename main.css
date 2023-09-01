@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(247, 247, 247);
+}
+#box{
+    background-color: black;
+    height: 50px;
+    width: 50px;
+}
+header{
+    display: flex;
+    background-color: aqua;
+    align-content: center;
+    height:500px;
+}
