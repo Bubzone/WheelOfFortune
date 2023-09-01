@@ -2,13 +2,19 @@ body{
     background-color: rgb(247, 247, 247);
 }
 #box{
-    background-color: black;
-    height: 50px;
-    width: 50px;
+    width:200px;
+    height: 200px;
+    background: linear-gradient(0deg, blue, blue), linear-gradient(180deg, red, red), linear-gradient(90deg, green, green), linear-gradient(270deg, yellow, yellow);
+    background-size: 50% 50%;
+    background-position: 0% 0%, 0% 100%, 100% 0%, 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
 }
 header{
     display: flex;
-    background-color: aqua;
-    align-content: center;
+ 
+    align-items: center;
+    justify-content: center;
+    flex-flow:column;
     height:500px;
 }
