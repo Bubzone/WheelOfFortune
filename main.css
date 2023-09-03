@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(247, 247, 247);
+    background-color: #0C356A;
 }
 #box{
     width:200px;
@@ -9,12 +9,343 @@ body{
     background-position: 0% 0%, 0% 100%, 100% 0%, 100% 100%;
     background-repeat: no-repeat;
     border-radius: 50%;
+    margin-bottom: 20px;
 }
 header{
     display: flex;
- 
+    background-color: #279EFF;
     align-items: center;
     justify-content: center;
     flex-flow:column;
-    height:500px;
+    height:200px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    height: 500px;
+    background-color: #279EFF;
+}
+button{
+    font-size: 42px;
+    width: 300px;
+    height: 150px;
+    background: 
+        linear-gradient(#279EFF,#279EFF) padding-box,
+        linear-gradient(60deg, #40F8FF, #D5FFD0) border-box;
+    display: inline-block;
+    padding: 20px 25px;
+    border: 10px solid transparent;
+    border-radius: 10%;
+    animation-name: gradientButton;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes gradientButton {
+    0% {background:
+         linear-gradient(#279EFF,#279EFF) padding-box,
+         linear-gradient(0deg, #40F8FF, #D5FFD0) border-box;}
+    1% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(3.6deg, #40F8FF, #D5FFD0) border-box;}
+    2% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(7.2deg, #40F8FF, #D5FFD0) border-box;}
+    3% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(10.8deg, #40F8FF, #D5FFD0) border-box;}
+    4% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(14.4deg, #40F8FF, #D5FFD0) border-box;}
+    5% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(18.0deg, #40F8FF, #D5FFD0) border-box;}
+    6% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(21.6deg, #40F8FF, #D5FFD0) border-box;}
+    7% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(25.200000000000003deg, #40F8FF, #D5FFD0) border-box;}
+    8% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(28.800000000000004deg, #40F8FF, #D5FFD0) border-box;}
+    9% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(32.400000000000006deg, #40F8FF, #D5FFD0) border-box;}
+    10% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(36.00000000000001deg, #40F8FF, #D5FFD0) border-box;}
+    11% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(39.60000000000001deg, #40F8FF, #D5FFD0) border-box;}
+    12% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(43.20000000000001deg, #40F8FF, #D5FFD0) border-box;}
+    13% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(46.80000000000001deg, #40F8FF, #D5FFD0) border-box;}
+    14% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(50.40000000000001deg, #40F8FF, #D5FFD0) border-box;}
+    15% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(54.000000000000014deg, #40F8FF, #D5FFD0) border-box;}
+    16% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(57.600000000000016deg, #40F8FF, #D5FFD0) border-box;}
+    17% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(61.20000000000002deg, #40F8FF, #D5FFD0) border-box;}
+    18% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(64.80000000000001deg, #40F8FF, #D5FFD0) border-box;}
+    19% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(68.4deg, #40F8FF, #D5FFD0) border-box;}
+    20% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(72.0deg, #40F8FF, #D5FFD0) border-box;}
+    21% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(75.6deg, #40F8FF, #D5FFD0) border-box;}
+    22% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(79.19999999999999deg, #40F8FF, #D5FFD0) border-box;}
+    23% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(82.79999999999998deg, #40F8FF, #D5FFD0) border-box;}
+    24% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(86.39999999999998deg, #40F8FF, #D5FFD0) border-box;}
+    25% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(89.99999999999997deg, #40F8FF, #D5FFD0) border-box;}
+    26% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(93.59999999999997deg, #40F8FF, #D5FFD0) border-box;}
+    27% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(97.19999999999996deg, #40F8FF, #D5FFD0) border-box;}
+    28% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(100.79999999999995deg, #40F8FF, #D5FFD0) border-box;}
+    29% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(104.39999999999995deg, #40F8FF, #D5FFD0) border-box;}
+    30% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(107.99999999999994deg, #40F8FF, #D5FFD0) border-box;}
+    31% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(111.59999999999994deg, #40F8FF, #D5FFD0) border-box;}
+    32% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(115.19999999999993deg, #40F8FF, #D5FFD0) border-box;}
+    33% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(118.79999999999993deg, #40F8FF, #D5FFD0) border-box;}
+    34% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(122.39999999999992deg, #40F8FF, #D5FFD0) border-box;}
+    35% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(125.99999999999991deg, #40F8FF, #D5FFD0) border-box;}
+    36% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(129.5999999999999deg, #40F8FF, #D5FFD0) border-box;}
+    37% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(133.1999999999999deg, #40F8FF, #D5FFD0) border-box;}
+    38% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(136.7999999999999deg, #40F8FF, #D5FFD0) border-box;}
+    39% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(140.3999999999999deg, #40F8FF, #D5FFD0) border-box;}
+    40% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(143.9999999999999deg, #40F8FF, #D5FFD0) border-box;}
+    41% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(147.59999999999988deg, #40F8FF, #D5FFD0) border-box;}
+    42% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(151.19999999999987deg, #40F8FF, #D5FFD0) border-box;}
+    43% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(154.79999999999987deg, #40F8FF, #D5FFD0) border-box;}
+    44% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(158.39999999999986deg, #40F8FF, #D5FFD0) border-box;}
+    45% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(161.99999999999986deg, #40F8FF, #D5FFD0) border-box;}
+    46% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(165.59999999999985deg, #40F8FF, #D5FFD0) border-box;}
+    47% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(169.19999999999985deg, #40F8FF, #D5FFD0) border-box;}
+    48% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(172.79999999999984deg, #40F8FF, #D5FFD0) border-box;}
+    49% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(176.39999999999984deg, #40F8FF, #D5FFD0) border-box;}
+    50% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(179.99999999999983deg, #40F8FF, #D5FFD0) border-box;}
+    51% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(183.59999999999982deg, #40F8FF, #D5FFD0) border-box;}
+    52% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(187.19999999999982deg, #40F8FF, #D5FFD0) border-box;}
+    53% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(190.7999999999998deg, #40F8FF, #D5FFD0) border-box;}
+    54% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(194.3999999999998deg, #40F8FF, #D5FFD0) border-box;}
+    55% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(197.9999999999998deg, #40F8FF, #D5FFD0) border-box;}
+    56% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(201.5999999999998deg, #40F8FF, #D5FFD0) border-box;}
+    57% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(205.1999999999998deg, #40F8FF, #D5FFD0) border-box;}
+    58% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(208.79999999999978deg, #40F8FF, #D5FFD0) border-box;}
+    59% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(212.39999999999978deg, #40F8FF, #D5FFD0) border-box;}
+    60% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(215.99999999999977deg, #40F8FF, #D5FFD0) border-box;}
+    61% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(219.59999999999977deg, #40F8FF, #D5FFD0) border-box;}
+    62% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(223.19999999999976deg, #40F8FF, #D5FFD0) border-box;}
+    63% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(226.79999999999976deg, #40F8FF, #D5FFD0) border-box;}
+    64% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(230.39999999999975deg, #40F8FF, #D5FFD0) border-box;}
+    65% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(233.99999999999974deg, #40F8FF, #D5FFD0) border-box;}
+    66% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(237.59999999999974deg, #40F8FF, #D5FFD0) border-box;}
+    67% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(241.19999999999973deg, #40F8FF, #D5FFD0) border-box;}
+    68% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(244.79999999999973deg, #40F8FF, #D5FFD0) border-box;}
+    69% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(248.39999999999972deg, #40F8FF, #D5FFD0) border-box;}
+    70% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(251.99999999999972deg, #40F8FF, #D5FFD0) border-box;}
+    71% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(255.5999999999997deg, #40F8FF, #D5FFD0) border-box;}
+    72% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(259.1999999999997deg, #40F8FF, #D5FFD0) border-box;}
+    73% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(262.7999999999997deg, #40F8FF, #D5FFD0) border-box;}
+    74% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(266.39999999999975deg, #40F8FF, #D5FFD0) border-box;}
+    75% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(269.9999999999998deg, #40F8FF, #D5FFD0) border-box;}
+    76% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(273.5999999999998deg, #40F8FF, #D5FFD0) border-box;}
+    77% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(277.1999999999998deg, #40F8FF, #D5FFD0) border-box;}
+    78% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(280.79999999999984deg, #40F8FF, #D5FFD0) border-box;}
+    79% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(284.39999999999986deg, #40F8FF, #D5FFD0) border-box;}
+    80% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(287.9999999999999deg, #40F8FF, #D5FFD0) border-box;}
+    81% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(291.5999999999999deg, #40F8FF, #D5FFD0) border-box;}
+    82% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(295.19999999999993deg, #40F8FF, #D5FFD0) border-box;}
+    83% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(298.79999999999995deg, #40F8FF, #D5FFD0) border-box;}
+    84% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(302.4deg, #40F8FF, #D5FFD0) border-box;}
+    85% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(306.0deg, #40F8FF, #D5FFD0) border-box;}
+    86% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(309.6deg, #40F8FF, #D5FFD0) border-box;}
+    87% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(313.20000000000005deg, #40F8FF, #D5FFD0) border-box;}
+    88% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(316.80000000000007deg, #40F8FF, #D5FFD0) border-box;}
+    89% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(320.4000000000001deg, #40F8FF, #D5FFD0) border-box;}
+    90% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(324.0000000000001deg, #40F8FF, #D5FFD0) border-box;}
+    91% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(327.60000000000014deg, #40F8FF, #D5FFD0) border-box;}
+    92% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(331.20000000000016deg, #40F8FF, #D5FFD0) border-box;}
+    93% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(334.8000000000002deg, #40F8FF, #D5FFD0) border-box;}
+    94% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(338.4000000000002deg, #40F8FF, #D5FFD0) border-box;}
+    95% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(342.0000000000002deg, #40F8FF, #D5FFD0) border-box;}
+    96% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(345.60000000000025deg, #40F8FF, #D5FFD0) border-box;}
+    97% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(349.2000000000003deg, #40F8FF, #D5FFD0) border-box;}
+    98% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(352.8000000000003deg, #40F8FF, #D5FFD0) border-box;}
+    99% {background:
+            linear-gradient(#279EFF,#279EFF) padding-box,
+            linear-gradient(356.4000000000003deg, #40F8FF, #D5FFD0) border-box;}
+    100% {background:
+        linear-gradient(#279EFF,#279EFF) padding-box,
+        linear-gradient(360deg, #40F8FF, #D5FFD0) border-box;}
 }
